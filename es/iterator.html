@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            let arr = [2, 4, 6, 8, 10];
+            let obj = {m: 1, n: 2};
+            let str = 'hello world';
+            /* for (let x in arr) {
+                 console.log(arr[x])
+             }
+             for (let index in arr) {
+                 console.log(arr[index])
+             }*/
+            /*       for (var objKey in obj) {
+                       console.log(obj[objKey])
+                   }*/
+            /*            for (var strKey in str) {
+                            console.log(str[strKey])
+                        }*/
+            /*            for (var item of arr) {
+                            console.log(item)
+                        }*/
+            /*for (var objKey of obj) {
+              console.log(objKey)
+            }//TypeError  obj is not iterable*/
+            /*for (var strKey of str) {
+              console.log(strKey)
+            }*/
+
+            // 自定义遍历器
+            function makeIterator() {
+                console.log(this);
+                let index = 0;
+                let that = this;//缓存this
+                return {
+                    next: function () {
+                        console.log(this);
+                        return {
+                            value: that[index++],
+                            done: index - 1 < that.length ? false : true
+                        }
+                    }
+                }
+            }
+
+            /*let point = makeIterator.call(arr);
+            console.log(point.next());
+            console.log(point.next());
+            console.log(point.next());
+            console.log(point.next());
+            console.log(point.next());
+            console.log(point.next())*/
+            Array.prototype[Symbol.interator] = makeIterator
+            console.log(...arr)
+            for (var item of arr) {
+              console.log(item)
+            }
+
+        </script>
+    </body>
+</html>

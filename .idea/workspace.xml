@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9534a5ad-9e38-4a43-a807-89a3014ff676" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1RHeefYzyu3d7f37QLooDfJOMt1" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/react/复习" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\51218\Desktop\node\Ajax\三级联动\models" />
+      <recent name="C:\Users\51218\Desktop\node\public" />
+      <recent name="C:\Users\51218\Desktop\node" />
+      <recent name="C:\Users\51218\Desktop\node\Ajax\backup" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\51218\Desktop\node\react\复习" />
+      <recent name="C:\Users\51218\Desktop\node\react\js" />
+      <recent name="C:\Users\51218\Desktop\node\Ajax\三级联动\models" />
+      <recent name="C:\Users\51218\Desktop\node\Ajax\三级联动" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.server.js">
+    <configuration name="文件读取.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/backup/文件读取.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="原生服务器.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/原生服务器.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/backup/main.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="node Buffer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/backup/node Buffer.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$/Ajax">
+      <method v="2" />
+    </configuration>
+    <configuration name="sever.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/backup/sever.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.server.js" />
+        <item itemvalue="Node.js.node Buffer.js" />
+        <item itemvalue="Node.js.文件读取.js" />
+        <item itemvalue="Node.js.main.js" />
+        <item itemvalue="Node.js.sever.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9534a5ad-9e38-4a43-a807-89a3014ff676" name="Default Changelist" comment="" />
+      <created>1569328545869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569328545869</updated>
+      <workItem from="1569328549179" duration="636000" />
+      <workItem from="1569415925025" duration="2255000" />
+      <workItem from="1569464867081" duration="6337000" />
+      <workItem from="1569481678661" duration="1222000" />
+      <workItem from="1569570635893" duration="701000" />
+      <workItem from="1569667090073" duration="30000" />
+      <workItem from="1569668021079" duration="818000" />
+      <workItem from="1569752470773" duration="3124000" />
+      <workItem from="1569756067548" duration="110000" />
+      <workItem from="1569756209790" duration="4448000" />
+      <workItem from="1570530886321" duration="5311000" />
+      <workItem from="1570579650856" duration="11516000" />
+      <workItem from="1570676247852" duration="2136000" />
+      <workItem from="1570758571943" duration="101000" />
+      <workItem from="1570758687898" duration="238000" />
+      <workItem from="1570769604517" duration="15581000" />
+      <workItem from="1570839186027" duration="1223000" />
+      <workItem from="1571050202974" duration="4699000" />
+      <workItem from="1571288692831" duration="568000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

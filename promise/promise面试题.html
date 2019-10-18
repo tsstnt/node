@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>面试题1</title>
+</head>
+<body>
+    <script type=text/javascript>
+        setTimeout(() => {
+            console.log('timeOut callback1()',);
+						Promise.resolve(3).then(
+							(value) => {
+								console.log('promise onResolver(3)',value)
+							}
+						)
+        }, 0);
+				setTimeout(() => {
+					console.log('timeout callback2()');
+				}, 0);
+				Promise.resolve(1).then(
+					(value) => {
+						console.log('promise onResolved1()',value);
+					}
+				)
+				Promise.resolve(2).then(
+					(value) => {
+						console.log('promise onResolved2()',value);
+					}
+				)
+
+    </script>    
+</body>
+</html>

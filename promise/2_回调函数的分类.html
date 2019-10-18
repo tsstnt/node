@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 同步回调函数
+        const arr = [1,3,5]
+        arr.forEach(item =>{
+            console.log(item)
+        })//1   3  5
+        // console.log([...arr]);//[1,3,5]
+        console.log('forEach___back')
+
+
+        //异步回调函数
+        setTimeout(() =>{
+            console.log('timeout callback')
+
+        },100)
+        console.log('setTimeout()之后')//先输出24行   在输出21行
+    </script>
+</body>
+</html>

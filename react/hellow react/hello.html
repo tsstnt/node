@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>hello</title>
+    </head>
+    <body>
+        <div id="test"></div>
+        <!--1.引入react核心库-->
+        <script type="text/javascript" src="../js/react.development.js"></script>
+        <!--2.引入react-dom用于操作DOM-->
+        <script type="text/javascript" src="../js/react-dom.development.js"></script>
+        <!--3.引入babel，用于将jsx转换为原生js-->
+        <script type="text/javascript" src="../js/babel.min.js"></script>
+
+        <script type="text/babel">
+            let vDom1 = <h1>hellow,react</h1>
+            ReactDOM.render(vDom1,document.getElementById('test'))
+        </script>
+    </body>
+</html>

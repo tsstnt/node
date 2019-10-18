@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>验证diff</title>
+    </head>
+    <body>
+        <div id="example"></div>
+
+        <script src="../js/react.development.js" type="text/javascript"></script>
+        <script src="../js/react-dom.development.js" type="text/javascript"></script>
+        <script src="../js/babel.min.js" type="text/javascript"></script>
+
+        <script type="text/babel">
+            class HelloWorld extends React.Component {
+                state = {date: new Date()}
+
+                componentDidMount() {
+                    setInterval(() => {
+                        this.setState({
+                            date: new Date()
+                        })
+                    }, 1000)
+                }
+
+                render() {
+                    console.log('render()')
+                    return (
+                        <p>
+                            <input type="text"/>
+                            <span>{this.state.date.toTimeString()}</span>
+                        </p>
+                    )
+                }
+            }
+
+            ReactDOM.render(<HelloWorld/>, document.getElementById('example'))
+        </script>
+    </body>
+</html>
